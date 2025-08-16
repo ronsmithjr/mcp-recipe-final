@@ -1,0 +1,19 @@
+{
+  "plan_name": "My Chicken Meal Plan",
+  "created_date": "2025-08-16T13:46:47.190872",
+  "total_recipes": 2,
+  "recipes": [
+    {
+      "id": "52956",
+      "name": "Chicken Congee",
+      "cuisine": "Chinese",
+      "category": "Chicken"
+    },
+    {
+      "id": "52920",
+      "name": "Chicken Marengo",
+      "cuisine": "French",
+      "category": "Chicken"
+    }
+  ]
+}
