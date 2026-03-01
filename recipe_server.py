@@ -8,6 +8,10 @@ from mcp.server.fastmcp import FastMCP
 import requests
 
 
+def _log(message: str) -> None:
+    print(message, file=sys.stderr, flush=True)
+
+
 # Use pathlib for cross-platform compatibility
 SCRIPT_DIR = Path(__file__).parent.resolve()
 RECIPES_DIR = SCRIPT_DIR / "recipes"
@@ -15,28 +19,28 @@ RECIPES_DIR = SCRIPT_DIR / "recipes"
 # Initialize recipes directory on startup
 try:
     RECIPES_DIR.mkdir(mode=0o755, exist_ok=True)
-    print(f"Recipes directory ready: {RECIPES_DIR}")
+    _log(f" rectory ready: {RECIPES_DIR}")
 
     # Test write permissions
     test_file = RECIPES_DIR / ".write_test"
     try:
         test_file.write_text("test", encoding="utf-8")
         test_file.unlink()  # Delete test file
-        print(f"Write permissions confirmed for: {RECIPES_DIR}")
+        _log(f"Write permissions confirmed for: {RECIPES_DIR}")
     except Exception as e:
-        print(f"Warning: No write permissions for {RECIPES_DIR}: {e}")
+        _log(f"Warning: No write permissions for {RECIPES_DIR}: {e}")
 
 except Exception as e:
-    print(f"Error initializing recipes directory: {str(e)}")
+    _log(f"Error initializing recipes directory: {str(e)}")
 
 
 # ==================== MCP SERVER SETUP ====================
-port = int(os.environ.get("PORT", 8000))
+port = int(os.environ.get("PORT", 8011))
 
 # ==== MCP Server Initialization ===
 # Initialize FastMCP server
 mcp = FastMCP(
-    "recipe_research", host="0.0.0.0", port=port
+    "recipe_research", host="127.0.0.1", port=port
 )  # add port and host for deployment!!
 
 # mcp = FastMCP("recipe_research")
@@ -110,7 +114,7 @@ def search_recipes(dish_name: str, max_results: int = 5) -> List[str]:
                 with open(file_path, "r", encoding="utf-8") as json_file:
                     recipes_info = json.load(json_file)
             except (FileNotFoundError, json.JSONDecodeError) as e:
-                print(f"Could not load existing file: {e}")
+                _log(f"Could not load existing file: {e}")
 
         # Process each recipe and get detailed information
         recipe_ids = []
@@ -154,11 +158,11 @@ def search_recipes(dish_name: str, max_results: int = 5) -> List[str]:
         try:
             with open(file_path, "w", encoding="utf-8") as json_file:
                 json.dump(recipes_info, json_file, indent=2, ensure_ascii=False)
-            print(f"Results saved to: {file_path}")
+            _log(f"Results saved to: {file_path}")
             return recipe_ids
         except Exception as e:
             # Return recipe IDs even if save fails
-            print(f"Could not save to file: {str(e)}")
+            _log(f"Could not save to file: {str(e)}")
             return recipe_ids
 
     except requests.RequestException as e:
@@ -198,7 +202,7 @@ def get_recipe_details(recipe_id: str) -> str:
                             if recipe_id in recipes_info:
                                 return json.dumps(recipes_info[recipe_id], indent=2)
                     except (FileNotFoundError, json.JSONDecodeError) as e:
-                        print(f"Error reading {file_path}: {str(e)}")
+                        _log(f"Error reading {file_path}: {str(e)}")
                         continue
 
         return f"No saved information found for recipe {recipe_id}."
@@ -877,5 +881,8 @@ Present your exploration as a cultural culinary journey that respects and celebr
 
 
 if __name__ == "__main__":
-    # mcp.run()  # Run the MCP server on the specified port
-    mcp.run(transport="streamable-http")  # Run the MCP server on the specified port
+    transport = os.environ.get("MCP_TRANSPORT", "stdio").strip().lower()
+    if transport == "streamable-http":
+        mcp.run(transport="streamable-http")
+    else:
+        mcp.run()

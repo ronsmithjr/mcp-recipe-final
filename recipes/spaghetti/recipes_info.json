@@ -101,5 +101,45 @@
       "BBQ",
       "Breakfast"
     ]
+  },
+  "53093": {
+    "name": "Syrian Spaghetti",
+    "cuisine": "Syrian",
+    "category": "Pasta",
+    "instructions": "Preheat oven to 350 degrees F (175 degrees C). Grease a 9x13 inch baking dish.\r\n\r\nBring a large pot of lightly salted water to a boil. Add spaghetti and cook for 8 to 10 minutes or until al dente; drain and stir in tomato sauce, tomato paste, cinnamon, oil, salt and pepper. Transfer to prepared dish.\r\n\r\nBake in preheated oven for 1 hour, or until top is crunchy.",
+    "image_url": "https://www.themealdb.com/images/media/meals/5fu4ew1760524857.jpg",
+    "youtube_url": "https://www.youtube.com/watch?v=MGmaX9Uv_Gs",
+    "source_url": "https://www.allrecipes.com/recipe/26303/syrian-spaghetti/",
+    "ingredients": [
+      {
+        "ingredient": "Spaghetti",
+        "measure": "16 ounces"
+      },
+      {
+        "ingredient": "Tomato Sauce",
+        "measure": "8 ounces"
+      },
+      {
+        "ingredient": "Tomato Puree",
+        "measure": "6 oz"
+      },
+      {
+        "ingredient": "Cinnamon",
+        "measure": "1 teaspoon"
+      },
+      {
+        "ingredient": "Vegetable Oil",
+        "measure": "1/4 cup"
+      },
+      {
+        "ingredient": "Salt",
+        "measure": "Dash"
+      },
+      {
+        "ingredient": "Pepper",
+        "measure": "Dash"
+      }
+    ],
+    "tags": []
   }
 }

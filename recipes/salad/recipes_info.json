@@ -270,5 +270,293 @@
       "Vegetarian",
       "Spicy"
     ]
+  },
+  "53245": {
+    "name": "Noodle bowl salad",
+    "cuisine": "Vietnamese",
+    "category": "Seafood",
+    "instructions": "step 1\r\nDrop the noodles into a large bowl, then pour over enough boiling water to cover. Tip in the sliced sugar snaps and leave for 4 minutes. Drain in a colander, put under cold running water to cool off, then drain again. Tip into a bowl and toss in the sesame oil.\r\n\r\nstep 2\r\nMix the dressing ingredients. Pile spring onions, coriander and salmon onto the noodles, pour over the dressing and toss everything together. Serve with a pretzel or bread roll.",
+    "image_url": "https://www.themealdb.com/images/media/meals/zry07j1763779321.jpg",
+    "youtube_url": "https://www.youtube.com/watch?v=7EAdKeikJ9o",
+    "source_url": "https://www.bbcgoodfood.com/recipes/noodle-bowl-salad",
+    "ingredients": [
+      {
+        "ingredient": "Rice Noodles",
+        "measure": "125g"
+      },
+      {
+        "ingredient": "Sugar Snap Peas",
+        "measure": "200g"
+      },
+      {
+        "ingredient": "Sesame Seed Oil",
+        "measure": "2 tsp"
+      },
+      {
+        "ingredient": "Spring Onions",
+        "measure": "4 sliced"
+      },
+      {
+        "ingredient": "Coriander",
+        "measure": "Handful"
+      },
+      {
+        "ingredient": "Hot Smoked Flaked Salmon",
+        "measure": "150g"
+      },
+      {
+        "ingredient": "Pretzels",
+        "measure": "To serve"
+      },
+      {
+        "ingredient": "Soy Sauce",
+        "measure": "3  tablespoons"
+      },
+      {
+        "ingredient": "Clear Honey",
+        "measure": "1 tablespoon"
+      },
+      {
+        "ingredient": "Lemon Juice",
+        "measure": "1 tablespoon"
+      },
+      {
+        "ingredient": "Ground Nut Oil",
+        "measure": "1 tablespoon"
+      },
+      {
+        "ingredient": "Garlic",
+        "measure": "1 clove finely chopped"
+      },
+      {
+        "ingredient": "Ginger",
+        "measure": "Knob"
+      }
+    ],
+    "tags": []
+  },
+  "53297": {
+    "name": "Pomegranate salad",
+    "cuisine": "Polish",
+    "category": "Vegetarian",
+    "instructions": "step 1\r\nCombine the olive oil, lemon juice, honey and thyme leaves in a large bowl. Season well, then tip in the lettuce, tomatoes, spring onions and chilli, and toss to combine.\r\n\r\nstep 2\r\nScoop out the pomegranate seeds over a bowl and remove any white membrane. Arrange the dressed salad on a platter, then scatter over the pomegranate seeds and feta.",
+    "image_url": "https://www.themealdb.com/images/media/meals/fqpqml1764359125.jpg",
+    "youtube_url": "https://www.youtube.com/watch?v=wTqashUAid8",
+    "source_url": "https://www.bbcgoodfood.com/recipes/pomegranate-salad",
+    "ingredients": [
+      {
+        "ingredient": "Olive Oil",
+        "measure": "60 ml"
+      },
+      {
+        "ingredient": "Lemon Juice",
+        "measure": "2 tablespoons"
+      },
+      {
+        "ingredient": "Honey",
+        "measure": "1 tablespoon"
+      },
+      {
+        "ingredient": "Thyme",
+        "measure": "2 sprigs"
+      },
+      {
+        "ingredient": "Baby Lettuce Leaves",
+        "measure": "100g"
+      },
+      {
+        "ingredient": "Cherry Tomatoes",
+        "measure": "250g"
+      },
+      {
+        "ingredient": "Spring Onions",
+        "measure": "3 chopped"
+      },
+      {
+        "ingredient": "Red Chilli",
+        "measure": "1 chopped"
+      },
+      {
+        "ingredient": "Pomegranate",
+        "measure": "1"
+      },
+      {
+        "ingredient": "Feta",
+        "measure": "50g"
+      }
+    ],
+    "tags": []
+  },
+  "53275": {
+    "name": "Sweet potato salad",
+    "cuisine": "Turkish",
+    "category": "Vegetarian",
+    "instructions": "step 1\r\nHeat oven to 200C/180C fan/gas 6. Toss the sweet potato chunks with the olive oil and some seasoning, and spread on a baking parchment-lined baking sheet. Roast for 30 - 35 mins until tender and golden. Cool at room temperature.\r\n\r\nstep 2\r\nWhen just about cool whisk together all the dressing ingredients with a little more seasoning and gently toss through the potato chunks – use your hands to avoid breaking them up.",
+    "image_url": "https://www.themealdb.com/images/media/meals/z458v91763817681.jpg",
+    "youtube_url": "https://www.youtube.com/watch?v=RkiKSO0IuVQ",
+    "source_url": "https://www.bbcgoodfood.com/recipes/sweet-potato-salad",
+    "ingredients": [
+      {
+        "ingredient": "Sweet Potatoes",
+        "measure": "1200g"
+      },
+      {
+        "ingredient": "Olive Oil",
+        "measure": "1 tablespoon"
+      },
+      {
+        "ingredient": "Shallots",
+        "measure": "2"
+      },
+      {
+        "ingredient": "Spring Onions",
+        "measure": "4 sliced"
+      },
+      {
+        "ingredient": "Chives",
+        "measure": "Bunch"
+      },
+      {
+        "ingredient": "Sherry vinegar",
+        "measure": "5 tablespoons"
+      },
+      {
+        "ingredient": "Extra Virgin Olive Oil",
+        "measure": "2 tablespoons"
+      },
+      {
+        "ingredient": "Honey",
+        "measure": "2 tablespoons"
+      }
+    ],
+    "tags": []
+  },
+  "53237": {
+    "name": "Vietnamese pork salad",
+    "cuisine": "Vietnamese",
+    "category": "Pork",
+    "instructions": "step 1\r\nThe day before: make the dressing. Put the sugar and lime juice in a pan with 1 tbsp water and bring to the boil to dissolve the sugar. Add the chilli and coriander and stir well, then pulse in a blender until smooth. Tip into a bowl, then stir in the sesame oil, fish sauce, soy sauce and sesame seeds to make a dressing. Cover and chill until needed.\r\n\r\nstep 2\r\nTwo hours before serving: heat a griddle pan. Preheat the oven to 200C/gas 6/fan 180C. Brush the pork with oil and griddle on all sides for a few minutes until seared. Transfer to a baking tray and put in the oven for about 10-12 minutes until cooked through. Cool, thinly slice against the grain of the meat. Tip into a bowl and pour over half the dressing.\r\n\r\nstep 3\r\nTo serve: toss the remaining salad ingredients in a bowl with the remaining dressing. Pile on to a platter, top with the pork slices and spoon over any juices.",
+    "image_url": "https://www.themealdb.com/images/media/meals/g7jomp1763763994.jpg",
+    "youtube_url": "https://www.youtube.com/watch?v=_DCJNrNTTB4",
+    "source_url": "https://www.bbcgoodfood.com/recipes/vietnamese-pork-salad",
+    "ingredients": [
+      {
+        "ingredient": "Golden Caster Sugar",
+        "measure": "1 tsp"
+      },
+      {
+        "ingredient": "Lime",
+        "measure": "Juice of 2"
+      },
+      {
+        "ingredient": "Red Chilli",
+        "measure": "1 chopped"
+      },
+      {
+        "ingredient": "Coriander",
+        "measure": "Handful"
+      },
+      {
+        "ingredient": "Sesame Seed Oil",
+        "measure": "1 tablespoon"
+      },
+      {
+        "ingredient": "Fish Sauce",
+        "measure": "1 tablespoon"
+      },
+      {
+        "ingredient": "Soy Sauce",
+        "measure": "1 tablespoon"
+      },
+      {
+        "ingredient": "Pork Tenderloin",
+        "measure": "500g"
+      },
+      {
+        "ingredient": "Vegetable Oil",
+        "measure": "For brushing"
+      },
+      {
+        "ingredient": "White Cabbage",
+        "measure": "1/4"
+      },
+      {
+        "ingredient": "Cucumber",
+        "measure": "1 chopped"
+      },
+      {
+        "ingredient": "Celery",
+        "measure": "5 chopped"
+      },
+      {
+        "ingredient": "Spring Onions",
+        "measure": "3 sliced thinly"
+      },
+      {
+        "ingredient": "Red Chilli",
+        "measure": "1 chopped"
+      },
+      {
+        "ingredient": "Lemongrass Stalks",
+        "measure": "2 chopped"
+      },
+      {
+        "ingredient": "Lime",
+        "measure": "Zest of 1"
+      },
+      {
+        "ingredient": "Coriander",
+        "measure": "Handful"
+      },
+      {
+        "ingredient": "Mint",
+        "measure": "Handful"
+      }
+    ],
+    "tags": []
+  },
+  "53239": {
+    "name": "Bang bang prawn salad",
+    "cuisine": "Vietnamese",
+    "category": "Seafood",
+    "instructions": "step 1\r\nCook the noodles following pack instructions, then rinse under cold water and drain thoroughly. In a small saucepan melt together the peanut butter, coconut milk, sweet chilli sauce and half the spring onions, adding 1-2 tbsp of water to loosen the mixture to a drizzling consistency.\r\n\r\nstep 2\r\nMix the noodles, cucumber and beansprouts in a serving dish. Top with the prawns, drizzle over the peanut sauce and scatter over the remaining spring onions.",
+    "image_url": "https://www.themealdb.com/images/media/meals/4xcfai1763765676.jpg",
+    "youtube_url": "https://www.youtube.com/watch?v=Na-6-lzs2wU",
+    "source_url": "https://www.bbcgoodfood.com/recipes/bang-bang-prawn-salad",
+    "ingredients": [
+      {
+        "ingredient": "Rice Noodles",
+        "measure": "140g"
+      },
+      {
+        "ingredient": "Peanut Butter",
+        "measure": "3 tablespoons"
+      },
+      {
+        "ingredient": "Coconut Milk",
+        "measure": "4 tablespoons"
+      },
+      {
+        "ingredient": "sweet chilli sauce",
+        "measure": "3  tablespoons"
+      },
+      {
+        "ingredient": "Spring Onions",
+        "measure": "3 sliced thinly"
+      },
+      {
+        "ingredient": "Cucumber",
+        "measure": "1 sliced"
+      },
+      {
+        "ingredient": "Bean Sprouts",
+        "measure": "300g"
+      },
+      {
+        "ingredient": "Prawns",
+        "measure": "200g"
+      }
+    ],
+    "tags": []
   }
 }

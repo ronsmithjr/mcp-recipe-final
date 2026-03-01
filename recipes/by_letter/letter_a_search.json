@@ -1,0 +1,28 @@
+{
+  "letter": "A",
+  "found_recipes": 10,
+  "recipe_ids": [
+    "53262",
+    "53373",
+    "53158",
+    "53169",
+    "53138",
+    "53284",
+    "53282",
+    "53288",
+    "53281",
+    "53111"
+  ],
+  "recipe_names": [
+    "Adana kebab",
+    "Air Fryer Egg Rolls",
+    "Air fryer patatas bravas",
+    "Ajo blanco",
+    "Alfajores",
+    "Algerian Bouzgene Berber Bread with Roasted Pepper Sauce",
+    "Algerian Carrots",
+    "Algerian Flafla (Bell Pepper Salad)",
+    "Algerian Kefta (Meatballs)",
+    "Anzac biscuits"
+  ]
+}

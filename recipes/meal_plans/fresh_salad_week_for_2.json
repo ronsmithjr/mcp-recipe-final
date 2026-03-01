@@ -1,0 +1,25 @@
+{
+  "plan_name": "Fresh Salad Week for 2",
+  "created_date": "2026-03-01T14:57:46.769498",
+  "total_recipes": 3,
+  "recipes": [
+    {
+      "id": "53297",
+      "name": "Pomegranate salad",
+      "cuisine": "Polish",
+      "category": "Vegetarian"
+    },
+    {
+      "id": "53239",
+      "name": "Bang bang prawn salad",
+      "cuisine": "Vietnamese",
+      "category": "Seafood"
+    },
+    {
+      "id": "53275",
+      "name": "Sweet potato salad",
+      "cuisine": "Turkish",
+      "category": "Vegetarian"
+    }
+  ]
+}
